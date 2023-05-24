@@ -1,5 +1,5 @@
 /*
- * File: 4-puts.c
+ * File: -puts.c
  * Auth: Eric Dzyk
  */
 
@@ -13,7 +13,7 @@
  */
 int main(void)
 {
-	int puts("\"Programming is like building a multilingual puzzle";
+	puts("\"Programming is like building a multilingual puzzle");
 	
 	return (0);
 }
