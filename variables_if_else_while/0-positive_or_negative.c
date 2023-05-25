@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - generates random number and prints information about random number
  *
@@ -14,10 +15,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	printf("is positive\n")
+	printf("%d is positive\n", n);
 	if (n == 0)
-	printf("is zero\n")
+	printf("%d is zero\n", n);
 	if (n < 0)
-	prinft("is negative\n")
+	printf("%d is negative\n", n);
 	return (0);
 }
