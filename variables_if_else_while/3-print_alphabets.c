@@ -9,6 +9,7 @@
 int main(void)
 {
 	char alphabet;
+	char alphabets;
 
 	alphabet = 'a';
 
@@ -18,7 +19,6 @@ int main(void)
 
 		alphabet++;
 }
-	char alphabets;
 
 	alphabets = 'A';
 
