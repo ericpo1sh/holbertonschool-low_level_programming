@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-        int number;
+	int number;
 
-        number = '0';
+	number = '0';
 
-        while (number <= '9')
-        {
-                putchar(number);
+	while (number <= '9')
+	{
+		putchar(number);
 
-                number++;
-        }
+		number++;
+}
 putchar('\n');
 return (0);
 }
