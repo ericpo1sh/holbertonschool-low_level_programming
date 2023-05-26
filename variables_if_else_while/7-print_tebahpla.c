@@ -2,7 +2,7 @@
 /**
  * main - declaring variable and initializing it with the range of z-a
  *
- * checking if the current value is less than the last letter and decrementing it
+ * checking if the current value is less than last letter and decrementing it
  *
  * Return: Always 0.
  */
