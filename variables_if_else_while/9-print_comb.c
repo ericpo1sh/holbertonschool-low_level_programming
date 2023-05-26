@@ -19,16 +19,16 @@ int main(void)
 	hex = 48;
 
 	while (hex <= 57)
-{
+	{
 	putchar(hex);
-
+	if(hex != 57)
+	{
 	putchar(Chr);
 
 	putchar(Chr2);
-
+	}
 	hex++;
 }
-
 putchar('\n');
 return (0);
 }
