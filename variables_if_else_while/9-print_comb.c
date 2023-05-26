@@ -21,7 +21,7 @@ int main(void)
 	while (hex <= 57)
 	{
 	putchar(hex);
-	if(hex != 57)
+	if (hex != 57)
 	{
 	putchar(Chr);
 
