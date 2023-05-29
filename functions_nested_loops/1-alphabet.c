@@ -4,17 +4,10 @@
  * Return: void.
  */
 
-void print_alphabet(void);
-
-	char alphabet;
-
-	alphabet = 'a';
+void print_alphabet(void)
 {
-	while (alphabet <= 'z')
-	{
-		_putchar(alphabet);
-
-		alphabet++;
-}
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+	_putchar(ch);
 _putchar('\n');
 }
