@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_alphabet - make the alphabet
  * Return: void.
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 
 {
 char ch;
