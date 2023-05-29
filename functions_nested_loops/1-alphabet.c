@@ -8,7 +8,7 @@
  */
 
 void print_alphabet(void);
-{
+
 	char alphabet;
 
 	alphabet = 'a';
@@ -21,4 +21,3 @@ void print_alphabet(void);
 }
 _putchar('\n');
 return (0);
-}
