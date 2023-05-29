@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_alphabet - make the alphabet
  * Return: void.
@@ -19,4 +20,5 @@ _putchar(ch);
 _putchar('\n');
 i++;
 }
+
 }
