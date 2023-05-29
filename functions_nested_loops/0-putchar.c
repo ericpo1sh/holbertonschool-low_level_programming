@@ -1,3 +1,5 @@
 #include <main.h>
 
-_putchar("_putchar\n")
+_putchar("_putchar\n");
+
+return(0);
