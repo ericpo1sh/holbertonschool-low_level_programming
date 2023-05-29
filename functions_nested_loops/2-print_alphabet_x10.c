@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - make the alphabet
+ * print_alphabet_x10 - make the alphabet, print 10x
  * Return: void.
  */
 
