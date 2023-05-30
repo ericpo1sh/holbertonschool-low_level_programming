@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _islower - checks for lowercase and uppercase characters
+ * _isalpha - checks for lowercase and uppercase characters
  *
  * @c: checking character
  *
