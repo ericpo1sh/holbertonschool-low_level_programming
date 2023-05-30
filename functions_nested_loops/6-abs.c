@@ -6,7 +6,7 @@
  * Return: Abs value or zero.
  */
 
-int _abs(int c);
+int _abs(int c)
 
 {
 	if (c < 0)
