@@ -2,7 +2,7 @@
 
 /**
  * print_sign - checks n's value and prints out stats
- *
+ * n - has needs value checked.
  * Return: 1 for n>0, 0 for n==0, -1 for n<0.
  */
 
