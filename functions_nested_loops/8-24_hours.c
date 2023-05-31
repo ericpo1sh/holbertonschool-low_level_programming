@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * jack_baur - Prints every minute of the day of Jack Bauer
+ * jack_bauer - Prints every minute of the day of Jack Bauer
  * a - number that stores value of a
  * b - number that stores value of b
  * c - number that stores value of c
  * d - number that stores value of d
  * Return: ...
  */
-void jack_baur(void)
+void jack_bauer(void)
 
 {
 
