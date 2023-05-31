@@ -8,11 +8,11 @@ void print_most_numbers(void)
 {
 	int n;
 
-	n = '0';
+	n = 0;
 
-	while (n < '10')
+	while (n <= 9)
 {
-	if ((n == '2') || (n == '4'))
+	if ((n == 2) || (n == 4))
 {
 	n++;
 	continue;
