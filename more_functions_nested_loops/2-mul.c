@@ -8,7 +8,7 @@
  * Return: prints out result.
  */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	result = (a * b)
 
