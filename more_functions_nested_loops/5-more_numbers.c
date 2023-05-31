@@ -7,11 +7,9 @@
 
 void more_numbers(void)
 {
-	int z
-	zero = 0
+	int z;
+	z = 0;
 
-	for (zero >= 0 && zero <= 14)
-{
-	zero++;
-}
-	
+	if (z > 9)
+	_putchar(( z / 10) + '0');
+
