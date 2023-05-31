@@ -9,8 +9,9 @@
 
 int _isupper(int c)
 {
+	for (uppercase = 'A'; uppercase <= 'Z');
 
-	if (c = 'C')
+	if (c = uppercase)
 {
 	return (1);
 }
