@@ -9,6 +9,7 @@
 void print_square(int size)
 {
 	int hash;
+	int n;
 
 	if (size > 0)
 	{
