@@ -12,11 +12,12 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (hash = 0; hash <= size; hash++)
+		for (hash = 0; hash < size; hash++)
 		{
-			_putchar(35);
+			_putchar('#');
 		}
 
 		_putchar('\n');
 	}
+
 }
