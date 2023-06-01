@@ -10,7 +10,7 @@ void print_diagonal(int n)
 	int space;
 	int slash;
 
-	if (n < 0)
+	if (n > 0)
 	{
 		for (slash = 0; slash < n; slash++)
 	{
