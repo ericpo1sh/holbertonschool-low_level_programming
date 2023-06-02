@@ -16,13 +16,12 @@ int main(void)
 		if ((cnt % 5 == 0) && (cnt % 3 == 0))
 		{
 			printf("FizzBuzz ");
-			putchar(' ');
 		}
-		if (cnt % 5 == 0)
+		else if (cnt % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		if (cnt % 3 == 0)
+		else if (cnt % 3 == 0)
 		{
 			printf("Fizz ");
 		}
