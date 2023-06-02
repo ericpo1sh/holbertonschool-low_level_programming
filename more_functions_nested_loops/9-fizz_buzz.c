@@ -26,12 +26,12 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else if (cnt % 3 == 0)
+		else if (cnt % 3 == 0);
 		{
 			printf("Fizz ");
-		if ((cnt % 5 != 0) && (cnt % 3 != 0))
-			printf("%d ", cnt);
 		}
+			if ((cnt % 5 != 0) && (cnt % 3 != 0))
+			printf("%d ", cnt);
 	}
 	return (0);
 }
