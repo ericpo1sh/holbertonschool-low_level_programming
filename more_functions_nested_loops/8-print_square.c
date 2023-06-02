@@ -13,20 +13,20 @@ void print_square(int size)
 	int nl;
 
 	if (size <= 0)
-	putchar('\n');
+		_putchar('\n');
 
 	if (size > 0)
 
+	{
+		for (nl = 0; nl < size; nl++)
 		{
-			for (nl = 0; nl < size; nl++)
+			for (hash = 0; hash < size; hash++)
 			{
-				for (hash = 0; hash < size; hash++)
-				{
 				_putchar('#');
-				}
+			}
 		_putchar('\n');
 
-			}
 		}
+	}
 
 }
