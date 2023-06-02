@@ -20,11 +20,11 @@ int main(void)
 		}
 		if (cnt % 5 == 0)
 		{
-			printf("Fizz ");
+			printf("Buzz ");
 		}
 		if (cnt % 3 == 0)
 		{
-			printf("Buzz ");
+			printf("Fizz ");
 		}
 		else
 			printf("%d ", cnt);
