@@ -14,9 +14,10 @@ int main(void)
 	for (; cnt <= 100; cnt++)
 	{
 		if (cnt == 100)
+		{
 			printf("Buzz");
-			continue;
-	
+			break;
+		}
 		{
 		if ((cnt % 5 == 0) && (cnt % 3 == 0))
 		{
