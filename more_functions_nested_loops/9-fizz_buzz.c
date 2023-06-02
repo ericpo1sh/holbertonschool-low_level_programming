@@ -11,7 +11,7 @@ int main(void)
 
 	cnt = 1;
 
-	for (; cnt < 100; cnt++)
+	for (; cnt <= 100; cnt++)
 		{
 		if ((cnt % 5 == 0) && (cnt % 3 == 0))
 		{
