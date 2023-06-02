@@ -18,7 +18,6 @@ int main(void)
 			printf("Buzz");
 			break;
 		}
-		{
 		if ((cnt % 5 == 0) && (cnt % 3 == 0))
 		{
 			printf("FizzBuzz ");
