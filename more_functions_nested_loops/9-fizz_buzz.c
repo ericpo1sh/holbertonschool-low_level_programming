@@ -16,6 +16,7 @@ int main(void)
 		if (cnt == 100)
 		{
 			printf("Buzz");
+			putchar('\n');
 			break;
 		}
 		if ((cnt % 5 == 0) && (cnt % 3 == 0))
