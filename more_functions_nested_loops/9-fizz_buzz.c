@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - will count 1-100 and print fizzbuzz, fizz, buzz, when conditions meet
- * Return: i dont have one.
+ * Return: Always 0.
  * cnt is current number that will print
  */
 
@@ -29,4 +29,5 @@ int main(void)
 		else
 			printf("%d ", cnt);
 	}
+	return (0);
 }
