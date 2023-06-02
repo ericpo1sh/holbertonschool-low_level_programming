@@ -5,20 +5,28 @@
  * print_square - will print # the ammount of times specified.
  * @size : the ammount of times that # will print
  * hash is var in the loop that will help us.
+ * nl is the counter that will add new lines.
  */
 void print_square(int size)
 {
 	int hash;
-	int n;
+	int nl;
+
+	if (size <= 0)
+	putchar('\n');
 
 	if (size > 0)
-	{
-		for (hash = 0; hash < size; hash++)
-		{
-			_putchar('#');
-		}
 
+		{
+			for (nl = 0; nl < size; nl++)
+			{
+				for (hash = 0; hash < size; hash++)
+				{
+				_putchar('#');
+				}
 		_putchar('\n');
-	}
+
+			}
+		}
 
 }
