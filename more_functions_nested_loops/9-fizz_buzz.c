@@ -26,7 +26,7 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else if (cnt % 3 == 0);
+		else if (cnt % 3 == 0)
 		{
 			printf("Fizz ");
 		}
