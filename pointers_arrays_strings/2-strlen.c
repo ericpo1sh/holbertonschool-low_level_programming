@@ -6,11 +6,12 @@
  *
  * @s : var pointed to where string is stored.
  */
-int _strlen(char *s)
+size_t int _strlen(const  char *str)
 {
-	int length = strlen(*s);
+	size_t length = 0;
 
-	_putchar(length + 0);
+	while (*str++)
+	(length++)
 
-	return (0);
+	return (length);
 }
