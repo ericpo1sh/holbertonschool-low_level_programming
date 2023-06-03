@@ -5,13 +5,15 @@
  * _strlen - gives us the length of the string
  *
  * @s : var pointed to where string is stored.
+ *
+ * Return: the size of the current string.
  */
 size_t int _strlen(const  char *str)
 {
 	size_t length = 0;
 
 	while (*str++)
-	(length++)
+	(length++);
 
 	return (length);
 }
