@@ -6,7 +6,7 @@
  *
  * @s : var pointed to where string is stored.
  */
-int _strlen(char *s);
+int _strlen(char *str);
 {
-	strlen(*s);
+	strlen(*str);
 }
