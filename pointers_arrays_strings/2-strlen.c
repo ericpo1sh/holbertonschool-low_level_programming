@@ -6,11 +6,13 @@
  *
  * @s : var pointed to where string is stored.
  */
-int _strlen(char *str)
+int _strlen(char *s)
 {
 	int len;
 
-	len = strlen(*str);
+	len = strlen(*s);
 
-	_putchar('len' + 1)
+	_putchar('len' + 1);
+
+	return (0);
 }
