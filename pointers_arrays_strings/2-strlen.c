@@ -8,10 +8,9 @@
  *
  * Return: the size of the current string.
  */
-int _strlen(const char *s)
+int _strlen(char *s)
 {
-	char *str = *s;
-	int length = strlen(*str);
+	int i = strlen(*s)
 
-	return(length);
+	return(i);
 }
