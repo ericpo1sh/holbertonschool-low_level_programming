@@ -17,7 +17,8 @@ int _atoi(char *s)
 	sign = -1;
 	num_neg_signs++;
 	s++;
-	} else if (*s == '+') {
+	} else if (*s == '+')
+	{
 	s++;
 	}
 
@@ -27,5 +28,5 @@ int _atoi(char *s)
 	s++;
 	}
 
-	return result * sign;
+	return (result * sign);
 }
