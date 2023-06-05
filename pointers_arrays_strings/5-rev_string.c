@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	int x;
-	int i;
+	int i = 0;
 	int y;
 	int c;
 
