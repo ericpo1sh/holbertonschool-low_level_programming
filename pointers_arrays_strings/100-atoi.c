@@ -10,7 +10,6 @@ int _atoi(char *s)
 {
 	int sign = 1;
 	int result = 0;
-	int num_neg_signs = 0;
 
 	while (*s == ' ')
 	{
@@ -20,7 +19,6 @@ int _atoi(char *s)
 	if (*s == '-')
 	{
 	sign = -1;
-	num_neg_signs++;
 	s++;
 	}
 	else if (*s == '+')
