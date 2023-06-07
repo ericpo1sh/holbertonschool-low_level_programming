@@ -5,6 +5,7 @@
  * _strncpy - will copy string from src to dest
  * @dest : the destinaton of the string we copied
  * @src : the source string where we copy
+ * @n : n is the number of chars we want to add.
  * Return: the dring contained in destination
  */
 char *_strncpy(char *dest, char *src, int n)
