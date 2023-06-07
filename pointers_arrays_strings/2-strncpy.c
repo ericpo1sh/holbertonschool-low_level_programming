@@ -2,9 +2,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
+ * _strncpy - will copy string from src to dest
+ * @dest : the destinaton of the string we copied
+ * @src : the source string where we copy
+ * Return: the dring contained in destination
  */
 char *_strncpy(char *dest, char *src, int n)
 {
