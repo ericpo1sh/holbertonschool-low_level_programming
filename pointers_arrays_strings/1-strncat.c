@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * strncat - will concatenate two strings but limiting the char bytes.
- * @dest : the destination string that we use.
+ * _strncat - will concatenate two strings but limiting the char bytes
+ * @dest : the destination string that we use
  * @src : the source string that we will be adding
  * Return: the destination string.
  */
