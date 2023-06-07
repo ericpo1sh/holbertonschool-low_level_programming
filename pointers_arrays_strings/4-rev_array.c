@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "main.c"
+#include "main.h"
 /**
  *
  *
