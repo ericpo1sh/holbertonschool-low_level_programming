@@ -5,6 +5,7 @@
  * _strncat - will concatenate two strings but limiting the char bytes
  * @dest : the destination string that we use
  * @src : the source string that we will be adding
+ * @n : the number of bytes we are limited to
  * Return: the destination string.
  */
 char *_strncat(char *dest, char *src, int n)
