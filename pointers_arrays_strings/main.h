@@ -11,3 +11,8 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 int _putchar(char);
 char *_strcat(char *dest, char *src);
+void reverse_array(int *a, int n);
+int _strcmp(char *s1, char *s2);
+char *string_toupper(char *);
+char *cap_string(char *);
+
