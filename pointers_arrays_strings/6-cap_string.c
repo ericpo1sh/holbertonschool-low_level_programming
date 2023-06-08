@@ -9,12 +9,13 @@
  */
 char *cap_string(char *s1)
 {
-	int i;
+	int i = 0;
 
 	while (s1[i])
 	{
-		for (!(s1[i] >= 'a' && s1[i] <= 'z'; i++))
-		{
+		for (!(s1[i] >= 'a' && s1[i] <= 'z'))
+		{	
+			i++;
 
 	if (s1[i - 1] == ' ' ||
 	s1[i - 1] == '\t' ||
