@@ -17,6 +17,8 @@ char *string_toupper(char *s1)
 	{
 	if (s1[n] != i)
 		s1[n] = (s1[n] - 32);
+	i = 'A';
 	}
+	return (s1);
 }
 
