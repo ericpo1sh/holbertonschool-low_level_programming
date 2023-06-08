@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * leet - will convert any string into leet format
- * @s - the string that we are given
+ * @s : the string that we are given
  * Return: the string.
  * i is my counter for the a1 and for the s string
  * j is my counter for a2
