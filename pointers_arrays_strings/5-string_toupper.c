@@ -8,14 +8,15 @@
  *
  *
  */
-char *string_toupper(char *s)
+char *string_toupper(char *s1)
 {
-	int i;
-	int x = strlen(s);
+	const char i; 
+	int n = 0;
 
-	for (i = 0; i < x; i++)
+	for (i = 'A'; i < 'Z'; i++)
 	{
-		s[i] = toupper(s[i]);
+	if (s1[n] != i)
+		s1[n] = (s1[n] - 32);
 	}
-return (0);
 }
+
