@@ -10,7 +10,7 @@
  */
 char *string_toupper(char *s1)
 {
-	const char i; 
+	char i; 
 	int n = 0;
 
 	for (i = 'A'; i < 'Z'; i++)
