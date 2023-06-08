@@ -8,14 +8,14 @@
  *
  *
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 	int i;
-	int x = strlen(str);
+	int x = strlen(s);
 
-	for (i = 1; i < x; i++)
+	for (i = 0; i < x; i++)
 	{
-		str[i] = toupper(str[i]);
+		s[i] = toupper(s[i]);
 	}
 return (0);
 }
