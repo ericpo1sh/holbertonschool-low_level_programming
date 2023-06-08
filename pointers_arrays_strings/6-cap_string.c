@@ -19,7 +19,7 @@ char *cap_string(char *s1)
 		{
 			if !(s1[i] >= '0' && s1[i] <= '9')
 			{
-				s1[i] = (s1[i] + 1);
+				i++;
 				s1[i] = (s1[i] - 32);
 			}
 		}
