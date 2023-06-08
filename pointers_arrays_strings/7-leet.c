@@ -16,7 +16,7 @@ char *leet(char *s)
 	char a2[10] = "4307143071";
 
 	while (s[i] != '\0')
-		for (i = 0, j = 0; i < 10, j < 10; j++, i++)
+		for (i = 0, j = 0; i < 10; j < 10; j++, i++)
 		{
 			if (s[i] == a1[i])
 			{
