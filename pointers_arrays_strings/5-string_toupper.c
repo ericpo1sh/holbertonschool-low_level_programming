@@ -5,7 +5,6 @@
 /**
  * string_toupper - will check and convert lowercase chars to upper
  * @s1 : the string that will be checked
- * @n : the place in the string
  * Return: the result
  */
 char *string_toupper(char *s1)
