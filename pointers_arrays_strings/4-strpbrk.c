@@ -16,7 +16,7 @@ char *_strpbrk(char *s, char *accept)
 			{
 				return (s);
 			}
-	if (s == NULL || accept == NULL)
+	if (s == '\0' || accept == '\0')
 	{
 		return('\0');
 	}
