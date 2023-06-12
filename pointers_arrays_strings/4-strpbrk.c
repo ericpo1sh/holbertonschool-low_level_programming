@@ -20,8 +20,6 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	if (s = '\0' || accept = '\0')
-	{
-	return('\0');
-	}
+	if ((s = '\0') || (accept = '\0'))
+		return('\0');
 }
