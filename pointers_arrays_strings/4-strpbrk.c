@@ -18,8 +18,9 @@ char *_strpbrk(char *s, char *accept)
 			{
 				return (s);
 			}
+			s++;
 		}
 	}
 	if ((s = '\0') || (accept = '\0'))
-		return (NULL);
+		return ('\0');
 }
