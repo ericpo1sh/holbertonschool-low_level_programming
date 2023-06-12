@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpbrk - will check for the first occurence of char in s 
+ * _strpbrk - will check for the first occurence of char in s
  * @s : our first string to check
  * @accept : our string that we are highlighting
  * Return: adress of s[i] if char found, null if nothing found
