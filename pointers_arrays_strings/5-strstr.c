@@ -14,7 +14,7 @@ char *_strstr(char *h, char *n)
 
 	if (n[j] == '\0')
 	{
-	return (&h[i]);
+	return (&h[g]);
 	}
 
 	while (h[i] != '\0')
@@ -27,7 +27,7 @@ char *_strstr(char *h, char *n)
 				g = i;
 			}
 			if (n[j] == '\0')
-			return (&h[i]);
+				return (&h[i]);
 		}
 		else
 		{
