@@ -26,8 +26,11 @@ char *_strstr(char *h, char *n)
 			if (n[j] == '\0')
 			return (&h[i]);
 		}
-	i = 0;
-	j = 0;
-	i++;
+		else
+		{
+		i = 0;
+		j = 0;
+		}
+		i++;
 	return (NULL);
 }
