@@ -18,6 +18,7 @@ char *_strstr(char *h, char *n)
 	}
 
 	while (h[i] != '\0')
+	{	
 		if (h[i] == n[j])
 		{
 			j++;
@@ -34,5 +35,6 @@ char *_strstr(char *h, char *n)
 			g = 0;
 		}
 		i++;
+	}
 	return (NULL);
 }
