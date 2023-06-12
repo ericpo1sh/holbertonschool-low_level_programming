@@ -17,9 +17,8 @@ char *_strstr(char *h, char *n)
 		{
 			i++;
 			j++;
-		}
 		if (n[j] == '\0')
 			return (&h[i]);
-
+		}
 	return (NULL);
 }
