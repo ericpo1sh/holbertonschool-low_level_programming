@@ -8,7 +8,8 @@
  */
 char *_strstr(char *h, char *n)
 {
-	int i, j = 0;
+	int i = 0;
+	int j = 0;
 
 	if (n[j] == '\0')
 	return (&h[i]);
