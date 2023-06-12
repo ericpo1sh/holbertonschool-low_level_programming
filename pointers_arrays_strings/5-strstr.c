@@ -20,16 +20,18 @@ char *_strstr(char *h, char *n)
 	while (h[i] != '\0')
 		if (h[i] == n[j])
 		{
-			if (g == 0)
-			i++;
 			j++;
+			if (g == 0)
+			{
+				g = i;
+			}
 			if (n[j] == '\0')
 			return (&h[i]);
 		}
 		else
 		{
-		i = 0;
-		j = 0;
+			j = 0;
+			g = 0;
 		}
 		i++;
 	return (NULL);
