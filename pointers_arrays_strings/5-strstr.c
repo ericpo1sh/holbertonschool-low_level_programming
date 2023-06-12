@@ -12,7 +12,9 @@ char *_strstr(char *h, char *n)
 	int j = 0;
 
 	if (n[j] == '\0')
+	{
 	return (&h[i]);
+	}
 
 	while (h[i] != '\0')
 		if (h[i] == n[j])
