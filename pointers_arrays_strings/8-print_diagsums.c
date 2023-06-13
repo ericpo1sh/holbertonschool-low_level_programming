@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_diagsums - entry point of our checker
- * @a: input 
+ * @a: input
  * @size : second imput
  * Return: always 0
  */
