@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ * print_diagsums - entry point of our checker
+ * @a: input 
+ * @size : second imput
+ * Return: always 0
  */
 void print_diagsums(int *a, int size)
 {
