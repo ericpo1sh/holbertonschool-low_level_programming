@@ -6,35 +6,21 @@
  * @n : needle string, contains one word
  * Return: Adress of h[g] if null, whole string if true, null if nothing
  */
-char *_strstr(char *h, char *n)
+char *_strstr(char *haystack, char *needle)
 {
-	int i = 0;
-	int j = 0;
-	int g = 0;
-
-	if (n[i] == '\0')
+	for (; *haystack != '\0'; haystack++)
 	{
-	return (&h[g]);
-	}
+		char *one = haystack;
+		char *two = needle;
 
-	while (h[i] != '\0')
-	{
-		if (h[i] == n[j])
+		while (*one == *two && *two != '\0')
 		{
-			j++;
-			if (g == 0)
-			{
-				g = i;
-			}
-			if (n[j] == '\0')
-				return (&h[i]);
+			one++;
+			two++;
 		}
-		else
-		{
-			j = 0;
-			g = 0;
-		}
-		i++;
+
+		if (*two == '\0')
+			return (haystack);
 	}
 	return (NULL);
 }
