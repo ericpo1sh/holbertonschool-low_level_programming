@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- *
+ * _strlen_recursion - prints out the strlen of s
+ * @s : the string to be counted
+ * Return: Recursivly return 1 + func, 0 when done.
  */
 int _strlen_recursion(char *s)
 {
