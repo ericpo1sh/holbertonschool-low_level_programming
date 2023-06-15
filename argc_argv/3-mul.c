@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib>
 /**
  * main - will print out each string
  * @argc : counts the number of arguements
