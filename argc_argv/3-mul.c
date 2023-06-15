@@ -8,15 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
+	int sum1;
+	int sum2;
+
 	if (argc < 3)
 	{
 	printf("Error\n");
 	return (1);
 	}
-
-	int sum1;
-	int sum2;
-
 		sum1 = atoi(argv[1]);
 		sum2 = atoi(argv[2]);
 	printf("%d\n", (sum1 * sum2));
