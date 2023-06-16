@@ -8,7 +8,7 @@
  * @argv : displays each string of the vector
  * Return: 0 at the end. return 1 if char spotted
  */
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	char *p;
