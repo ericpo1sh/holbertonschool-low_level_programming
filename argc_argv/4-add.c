@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - will add each input in cmd line
  * @argc : counts the number of arguements
