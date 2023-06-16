@@ -8,7 +8,7 @@
  * @argv : displays each string of the vector
  * Return: 0 at the end. return 1 if char spotted
  */
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
 	int i;
 	char *p;
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 			p = argv[i];
 			while (*(p) != '\0')
 			{
-				if (argv[i] < '48' || argv[i] > '57')
+				if (argv[i] < 48 || argv[i] > 57)
 				{
 					printf("Error\n");
 					return (1);
