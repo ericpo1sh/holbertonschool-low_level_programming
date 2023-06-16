@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 			p = argv[i];
 			while (*(p) != '\0')
 			{
-				if (argv[i] < 48 || argv[i] > 57)
+				if (argv[i] < '48' || argv[i] > '57')
 				{
 					printf("Error\n");
 					return (1);
