@@ -4,7 +4,7 @@ int primehelper(int x, int y);
  * primehelper - will check each number if its prime or not
  * @x : x is same as n value
  * @y : y is our checker, starts at 2 and increments to 1/2 x
- * Return: 0 if not  found, Return ++ until found, 1 if found. 
+ * Return: 0 if not  found, Return ++ until found, 1 if found.
  */
 int primehelper(int x, int y)
 {
