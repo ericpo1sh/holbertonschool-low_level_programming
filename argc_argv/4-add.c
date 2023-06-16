@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		for (i = 0; i < argc; i++)
 		{
 			p = argv[i];
-			while (*p != '\0')
+			while (*(p) != '\0')
 			{	 
 				if (*(p) < '48' || *(p) > '57')
 				{
