@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
+#include <stdlib.h>
 /**
  * _puts - prints out the entire string.
  * @str : the char that points to the string.
@@ -13,7 +13,7 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		putchar(str[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
