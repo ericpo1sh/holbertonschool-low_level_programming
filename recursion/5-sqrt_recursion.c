@@ -1,4 +1,7 @@
 #include "main.h"
+
+int root(int i, int j);
+
 /**
  * root - itterates through checking which values can be sqrt
  * @i : i is our root
@@ -11,7 +14,7 @@ int root(int i, int j)
 	{
 		return (j);
 	}
-	if ( j == 1/2)
+	if (j == 1/2)
 	{
 		return (-1);
 	}
@@ -23,7 +26,7 @@ int root(int i, int j)
  * @n : same thing as i
  * Return: 0 if n is 0, -1 if its negative
  */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	int j = 0;
 
