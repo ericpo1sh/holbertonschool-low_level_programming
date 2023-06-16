@@ -10,7 +10,6 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int b;
 	char *p;
 	int sum;
 
