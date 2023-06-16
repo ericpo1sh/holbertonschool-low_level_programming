@@ -14,7 +14,7 @@ int root(int i, int j)
 	{
 		return (j);
 	}
-	if (j == 1/2)
+	if (j == i / 2)
 	{
 		return (-1);
 	}
