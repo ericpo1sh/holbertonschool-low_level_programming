@@ -2,10 +2,10 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * main - will mulitply and print result of two nums.
+ * main - will add each input in cmd line
  * @argc : counts the number of arguements
  * @argv : displays each string of the vector
- * Return: 1 if only 1 number, 0 if it works.
+ * Return: 0 at the end. return 1 if char spotted
  */
 int main(int argc, char *argv[])
 {
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 				}
 				p++;
 			}
-			sum += ((int *)argv[i]);
+			sum += atoi(argv[i]);
 		}
 	printf("%d\n", sum);
 	}
