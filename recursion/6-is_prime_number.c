@@ -12,7 +12,7 @@ int primehelper(int x, int y)
 	if (y == x / 2)
 		return (1);
 
-	return (primehelper(x, y + 1);
+	return (primehelper(x, y + 1));
 }
 /**
  *
