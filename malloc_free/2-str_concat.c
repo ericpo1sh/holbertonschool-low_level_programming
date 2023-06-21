@@ -11,7 +11,6 @@
 char *str_concat(char *s1, char *s2)
 {
 	int len1, len2, i, j;
-	int x = 0;
 	char *dest;
 
 	if (s1 == NULL)
@@ -30,15 +29,14 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; s1[i]; i++)
 	{
-		x++;
-		dest[x] = s1[i];
+		dest[i] = s1[i];
 	}
 	for (j = 0; s2[j]; j++)
 	{
-		x++;
-		dest[x] = s2[j];
+		dest[i] = s2[j];
+		i++;
 	}
-	dest[x] = '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
