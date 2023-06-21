@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *
- *
- *
+ * create_array - will create an array of chars moves it to c
+ * @size : this the size that they give us
+ * @c : this is where the array will be stored
+ * Return: if size 0 then null, if b 0 then null, else return b.
  */
 char *create_array(unsigned int size, char c)
 {
