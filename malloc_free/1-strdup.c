@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * _strdup - will duplicate the strinh into arr
- * @str - the string given to us
+ * @str : the string given to us
  * len - this is the stringlength of str
  * arr is our destination location
  * i is my counter to transfer memory
