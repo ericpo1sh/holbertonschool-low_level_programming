@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * str_concat - will concatenate two strings into new dest
- * @s1 : first string 
+ * @s1 : first string
  * @s2 : second string
  * Return: null if failed, result if worked.
  *
