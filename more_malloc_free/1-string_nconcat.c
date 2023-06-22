@@ -3,10 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *
- *
- *
- *
+ * string_nconcat - will retrun a pointer to dest
+ * @s1 : first string
+ * @s2 : second limited string
+ * @n : char limiter
+ * Return: Null if no work, Pointer to dest if worked.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -20,9 +21,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 	len1 = strlen(s1);
-	
+
 	dest = malloc((len1 + n + 1) * sizeof(char));
-	
+
 	if (dest == 0)
 		return (NULL);
 
