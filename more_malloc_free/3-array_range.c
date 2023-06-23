@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 	if (p == NULL)
 		return (NULL);
 
-	for (x = 0; min <= max && x < (max - min - 1); x++)
+	for (x = 0; min <= max && x < (max - min + 1); x++)
 		p[x] = x + min;
 
 	return (p);
