@@ -10,7 +10,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *p;
+	unsigned int *p;
 	unsigned char *memeset = (unsigned char *)p;
 
 	if (nmemb == 0)
