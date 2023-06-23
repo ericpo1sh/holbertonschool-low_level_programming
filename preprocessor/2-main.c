@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	printf("2-main.c")
+	printf("2-main.c");
 
 	return (0);
 }
