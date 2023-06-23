@@ -10,19 +10,19 @@
  */
 int *array_range(int min, int max)
 {
-	int *pointertoarray;
-	int xijinping;
+	int *p;
+	int x;
 
 	if (min > max)
 		return (NULL);
 
-	pointertoarray = malloc((max - min + 1) * (sizeof(int)));
+	p = malloc((max - min + 1) * (sizeof(int)));
 
-	if (pointertoarray == NULL)
+	if (p == NULL)
 		return (NULL);
 
-	for (xijinping = 0; min <= max; xijinping++)
-		pointertoarray[xijinping] = xijinping + min;
+	for (x = 0; min <= max; x++)
+		p[x] = x + min;
 
-	return (pointertoarray);
+	return (p);
 }
