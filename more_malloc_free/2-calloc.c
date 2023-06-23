@@ -18,7 +18,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (size == 0)
 		return (NULL);
 
-	p = maalloc(nmemb * size);
+	p = malloc(nmemb * size);
 
 	return (p);
 }
