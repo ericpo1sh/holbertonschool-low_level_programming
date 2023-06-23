@@ -11,7 +11,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *p;
-	unsigned char *memeset = (unsigned char *)p
+	unsigned char *memeset = (unsigned char *)p;
 
 	if (nmemb == 0)
 		return (NULL);
@@ -21,7 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	p = malloc(nmemb * size);
 
-	;if (p != NULL)
+	if (p != NULL)
 	{
 		while (size--)
 		{
