@@ -10,7 +10,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i, j;
+	void *p;
 
 	if (nmemb == 0)
 		return (NULL);
@@ -18,4 +18,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (size == 0)
 		return (NULL);
 
+	p = maalloc(nmemb * size);
 
+	return (p);
+}
