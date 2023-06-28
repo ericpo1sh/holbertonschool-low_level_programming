@@ -4,7 +4,7 @@
  *
  *
  */
-struct dog;
+struct dog
 {
 	char *name;
 	float age;
@@ -13,6 +13,8 @@ struct dog;
 
 int main(void)
 {
-	struct dog dog;
+	struct dog dog1;
+	dog1.name = "poppy"
+	dog1.age = "3.5"
 	return (0);
 }
