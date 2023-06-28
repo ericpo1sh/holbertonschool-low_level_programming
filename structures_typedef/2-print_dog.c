@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *
+ * print_dog - will print our struct values
  */
 void print_dog(struct dog *d)
 {
