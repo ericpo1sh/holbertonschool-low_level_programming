@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * init_dog - initializing the dog
- * @d : this is dog input
+ * @d : this is dogs input
  * @name : the name of doggy
  * @age : age of doggy
  * @owner : owner of doggy
