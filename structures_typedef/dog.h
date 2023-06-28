@@ -4,14 +4,14 @@
  *
  *
  */
-struct dog
+struct my_dog
 {
-	char *name = "Poppy";
-	float age = 3.5;
-	char *owner = "Bob";
+	char *name;
+	float age;
+	char *owner;
 };
 int main(void)
 {
-	struct dog dog;
+	struct my_dog ;
 	return (0);
 }
