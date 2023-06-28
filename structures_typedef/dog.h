@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #ifndef dog
 #define dog
+#endif
 /*
  *
  *
