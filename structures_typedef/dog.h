@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#ifndef dog
+#define dog
 /*
  *
  *
@@ -10,8 +12,3 @@ struct dog
 	float age;
 	char *owner;
 };
-
-int main(void)
-{
-	return (0);
-}
