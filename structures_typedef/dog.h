@@ -13,8 +13,6 @@ struct dog
 
 int main(void)
 {
-	struct dog dog1;
-	dog1.name = "poppy"
-	dog1.age = "3.5"
+	struct dog dog;
 	return (0);
 }
