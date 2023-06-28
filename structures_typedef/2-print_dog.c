@@ -6,6 +6,7 @@
  */
 void print_dog(struct dog *d)
 {
+	float zero = 0.000000;
 
 	if (d != NULL)
 	{
@@ -16,6 +17,8 @@ void print_dog(struct dog *d)
 
 	if (d->age)
 		printf("Age: %f\n", d->age);
+	else
+		printf("Age: %f\n", zero);
 
 	if (d->owner != NULL)
 		printf("Owner: %s\n", d->owner);
