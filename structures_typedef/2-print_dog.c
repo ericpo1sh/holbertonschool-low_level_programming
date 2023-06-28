@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * print_dog - will print our struct values
+ * @d : the dog input
  */
 void print_dog(struct dog *d)
 {
