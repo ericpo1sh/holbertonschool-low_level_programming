@@ -10,8 +10,3 @@ struct my_dog
 	float age;
 	char *owner;
 };
-int main(void)
-{
-	struct my_dog ;
-	return (0);
-}
