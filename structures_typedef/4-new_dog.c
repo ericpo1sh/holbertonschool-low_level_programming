@@ -8,7 +8,7 @@
  * @name : name of the new dog
  * @age : age of doggy
  * @owner : owner of doggy
- * Return: NULL if fails, pointer if good
+ * Return: NULL if fails, pointer if good.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
