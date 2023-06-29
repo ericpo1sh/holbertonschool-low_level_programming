@@ -3,6 +3,8 @@
 #include "dog.h"
 /**
  *
- *
  */
-free(d);
+void free_dog(dog_t *d)
+{
+	free(d);
+}
