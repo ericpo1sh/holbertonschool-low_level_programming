@@ -4,8 +4,11 @@
 #include "9-strcpy.c"
 #include "2-strlen.c"
 /**
- *
- *
+ * new_dog - will add a new dog to our struct
+ * @name : name of the new dog
+ * @age : age of doggy
+ * @owner : owner of doggy
+ * Return: NULL if fails, pointer if good
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -39,4 +42,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcpy(p->owner, owner);
 
 	return (p);
-}		
+}	
