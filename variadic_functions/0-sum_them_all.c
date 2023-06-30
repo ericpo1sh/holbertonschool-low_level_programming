@@ -9,8 +9,9 @@ int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i = 0;
 	int va_arg;
-	int sum;
+	int sum = 0;
 	va_list args;
+	int j = va_arg(args, unsigned int);
 
 	va_start(args, n);
 
@@ -19,8 +20,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (; i < n; i++)
 	{
-		va_arg[i](args, int);
-		sum += va_arg;
+		va_arg(args, int);
+		sum += j;
 	}
 	printf("%d", sum);
 	return (0);
