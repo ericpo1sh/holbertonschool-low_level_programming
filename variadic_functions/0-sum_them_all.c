@@ -20,7 +20,7 @@ int sum_them_all(const unsigned int n, ...)
 	for (; i < n; i++)
 	{
 		va_arg(args, int);
-		sum += va_arg;
+		sum = va_arg;
 	}
 	printf("%d", sum);
 	return (0);
