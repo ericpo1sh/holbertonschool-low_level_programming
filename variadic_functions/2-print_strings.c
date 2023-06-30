@@ -4,7 +4,7 @@
 /**
  * print_strings - prints all the numbers in the arg list
  * @separator : points to sep string
- * @n : size of the arg list
+ * @n : size of the arg list.
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
