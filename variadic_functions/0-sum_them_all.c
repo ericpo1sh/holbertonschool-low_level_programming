@@ -7,7 +7,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	int i = 0;
+	unsigned int i = 0;
 	int va_arg;
 	int sum;
 	va_list args;
@@ -23,5 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg;
 	}
 	printf("%d", sum);
-`	return (0);
+	return (0);
 }
