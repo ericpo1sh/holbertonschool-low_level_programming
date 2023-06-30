@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- *
- *
+ * sum_them_all - will sum up all numbers from the variadic func
+ * @n - size of arguements
+ * Return: 0 if size is 0, sum if works.
  */
 int sum_them_all(const unsigned int n, ...)
 {
