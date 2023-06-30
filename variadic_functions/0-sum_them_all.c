@@ -23,6 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 		sum += j;
 	}
 	va_end(args);
-	printf("%d", sum);
-	return (0);
+	return (sum);
 }
