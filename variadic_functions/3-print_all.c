@@ -11,16 +11,15 @@ void print_all(const char * const format, ...)
 {
 	va_list	vers;
 	char *string;
-	int i;
+	int i = 0;
 
-	i = 0;
 	va_start(vers, format);
 	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
-			case 'd':
-				printf("%d", va_arg(vers, int));
+			case 'i':
+				printf("%i", va_arg(vers, int));
 				break;
 
 			case 'f':
