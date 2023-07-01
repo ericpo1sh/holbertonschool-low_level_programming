@@ -31,7 +31,7 @@ void print_all(const char * const format, ...)
 				break;
 
 			case 's':
-				string = va_arg(args, char *);
+				string = va_args(args, char *);
 
 				if (string == NULL);
 				{
