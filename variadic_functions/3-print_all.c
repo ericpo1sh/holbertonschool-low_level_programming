@@ -9,29 +9,29 @@
  */
 void print_all(const char * const format, ...)
 {
-	va_list	args;
+	va_list	vers;
 	char *string;
 	int i = 0;
 
-	va_start(args, format);
+	va_start(vers, format);
 	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
 			case 'c':
-				printf("%c", (char) va_arg(args, char));
+				printf("%c", (char) va_arg(vers, char));
 				break;
 
 			case 'd':
-				printf("%d", va_args(args, int));
+				printf("%d", va_arg(vers, int));
 				break;
 
 			case 'f':
-				printf("%f", va_args(args, float));
+				printf("%f", va_arg(vers, float));
 				break;
 
 			case 's':
-				string = va_args(args, char *);
+				string = va_arg(vers, char *);
 
 				if (string == NULL)
 				{
@@ -47,5 +47,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	printf("\n");
-	va_end(args);
+	va_end(vers);
 }
