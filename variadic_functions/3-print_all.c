@@ -2,8 +2,10 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- *
- *
+ * print_all - Prints all types of formats in input
+ * @format : the different types of formats.
+ * i is my iterator through the types of formats
+ * *string is my string pointer
  */
 void print_all(const char * const format, ...)
 {
@@ -36,4 +38,11 @@ void print_all(const char * const format, ...)
 				printf("%s", string);
 				break;
 		}
-
+		if (format[i] == 'c' || format[i] == 'd' || 
+		format[i] == 'f' && format[(i + 1)] != '\0')
+			printf(", ");
+		i++;
+	}
+	printf("\n");
+	va_end(args);
+}
