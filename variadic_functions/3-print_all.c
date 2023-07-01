@@ -11,8 +11,9 @@ void print_all(const char * const format, ...)
 {
 	va_list	vers;
 	char *string;
-	int i = 0;
+	int i;
 
+	i = 0;
 	va_start(vers, format);
 	while (format != NULL && format[i] != '\0')
 	{
