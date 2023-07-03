@@ -3,6 +3,7 @@
 /**
  * get_op_func - gets the operator for the function
  * @s : symbol
+ * Return: the operator to other file
  */
 int (*get_op_func(char *s))(int, int)
 {
