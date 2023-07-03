@@ -16,7 +16,7 @@ int main(int argc, char * argv[])
 		exit(98);
 	}
 
-	if (get_op_function(ptr) == NULL)
+	if (get_op_func(ptr) == NULL)
 	{
 		printf("Error\n");
 		exit(99);
@@ -24,7 +24,7 @@ int main(int argc, char * argv[])
 
 	if (*ptr == ('/' || '%') && atoi(argv[3]) == 0)
 	{
-		printf("Error\n")
+		printf("Error\n");
 		exit(100);
 	}
 return (0);
