@@ -16,7 +16,7 @@ int main(int argc, char * argv[])
 		exit(98);
 	}
 
-	if (get_op_func(ptr) == NULL || ptr == NULL)
+	if (get_op_func(ptr) == NULL || ptr)
 	{
 		printf("Error\n");
 		exit(99);
@@ -27,5 +27,6 @@ int main(int argc, char * argv[])
 		printf("Error\n");
 		exit(100);
 	}
+	printf("%d\n", get_op_func(ptr)(atoi(argv[1]), atoi(argv[3])));
 return (0);
 }
