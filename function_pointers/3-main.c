@@ -4,8 +4,8 @@
 #include "3-calc.h"
 /**
  * main - prints outs exit codes and the equation
- * @argc - arguement count
- * @argv - arguement vector
+ * @argc : arguement count
+ * @argv : arguement vector
  * Return: equation
  */
 int main(int argc, char *argv[])
