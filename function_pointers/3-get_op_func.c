@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include <stdio.h>
 /**
- * get_op
+ * get_op - gets the operator for the function
  * @s : symbol
  */
 int (*get_op_func(char *s))(int, int)
