@@ -6,10 +6,10 @@
  * @argc - arguement count
  * @argv - arguement vector
  */
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	char *ptr = argv[2];
-	
+
 	if (argc != 4)
 	{
 		printf("Error\n");
