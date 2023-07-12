@@ -21,7 +21,6 @@ size_t print_list(const list_t *h)
 		if (str1)
 		{
 			printf("[%i] %s\n", h->len, str1);
-			str1 = h->next;
 		}
 		else
 		{
