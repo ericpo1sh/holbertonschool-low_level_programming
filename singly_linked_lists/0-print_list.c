@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * print_list - prints out the nodes from list_t
- * @list_h : our struct that we use
- * @h : our head node 
+ * @h : our head node
+ * Return: Always Count
  */
 size_t print_list(const list_t *h)
 {
