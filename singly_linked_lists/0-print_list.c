@@ -9,7 +9,7 @@
 size_t print_list(const list_t *h)
 {
 	int i = 0;
-	char *str1;
+	char *str1 = NULL;
 
 	if (h == NULL)
 		return (0);
