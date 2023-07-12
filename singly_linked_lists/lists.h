@@ -3,9 +3,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>
-#ifndef _strdup
-#define strdup _strdup
-#endif
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
