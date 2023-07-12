@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ * list_len - listing the number of elements in the node
+ * @h : head
+ * Return: always count.
  */
 size_t list_len(const list_t *h)
 {
