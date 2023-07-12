@@ -7,21 +7,21 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new;
+	list_t *store;
 
-	if ((head != NULL) && (new != NULL))
+	if ((head != NULL) && (str != NULL))
 	{
-		if (new == NULL)
+		if (store == NULL)
 		{
 			return (NULL);
 		}
 		else
 		{
-		new->str = strdup(str);
-		new->len = strlen(str);
-		new->next = *head;
-		*head = new;
-		return (new);
+		store->str = strdup(str);
+		store->len = strlen(str);
+		store->next = *head;
+		*head = store;
+		return (store);
 		}
 	}
 return (0);
