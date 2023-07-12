@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>
-#ifndef
+#ifndef _strdup
 #define strdup _strdup
 #endif
 /**
