@@ -1,5 +1,5 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
+#ifndef __LISTS_H__
+#define __LISTS_H__
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
