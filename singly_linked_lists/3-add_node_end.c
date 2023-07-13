@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
- *
- *
- *
+ * add_node_end - adding a node at the end
+ * @head : this is our head
+ * @str : cstring to add
+ * Return: NULL IF INVALID, pointer to node if passed.
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -23,5 +24,13 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = store;
 	}
 	else
-		while (head->next != NULL)
+	{
+		temp = *head;
+		while (temp->next != NULL)
 		{
+			temp = temp->next;
+		}
+		temp->next = store;
+	}
+	return (store);
+}
