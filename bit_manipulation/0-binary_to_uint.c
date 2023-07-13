@@ -10,13 +10,13 @@ unsigned int binary_to_uint(const char *b)
 	int slen = 0;
 	unsigned int sum = 0;
 
-	slen = strlen(b - 1);
+	slen = strlen(b);
 
 	if (b != NULL)
 	{
-		for (i = slen; i >= slen; i--)
+		for (i = (slen - 1); i > slen; i--)
 		{
-			for (j = -1; j < slen; j++)
+			for (j = 0; j < (slen - 1); j++)
 			{
 				if (b[j] == 1)
 				{
