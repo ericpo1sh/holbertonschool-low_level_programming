@@ -12,21 +12,21 @@ unsigned int binary_to_uint(const char *b)
 
 	slen = strlen(b);
 
-	if (b != NULL)
+	if (b)
 	{
-		for (i = (slen - 1); i >= 0; i--)
+		for (i = (slen - 1); i >= 0;)
 		{
-			for (j = 0; j < (slen - 1); j++)
+			for (j = 0; b[j]; j++, i--)
 			{
-				if (b[j] == 1)
+				if (b[j] == '1')
 				{
 					sum += _pow(2, i);
 				}
-				else if (b[j] == 0)
+				if (b[j] == '0')
 				{
 					sum += 0;
 				}
-				else
+				if ((b[j] != '1') && (b[j] != '0'))
 					return (0);
 			}
 		}
