@@ -31,7 +31,7 @@ unsigned int binary_to_uint(const char *b)
 			}
 		}
 	}
-	else
+	if (b == NULL)
 		return (0);
 
 return (sum);
