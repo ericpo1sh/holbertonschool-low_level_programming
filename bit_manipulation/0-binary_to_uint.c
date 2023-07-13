@@ -10,10 +10,9 @@ unsigned int binary_to_uint(const char *b)
 	int slen = 0;
 	unsigned int sum = 0;
 
-	slen = strlen(b);
-
 	if (b)
 	{
+	slen = strlen(b);
 		for (i = (slen - 1); i >= 0;)
 		{
 			for (j = 0; b[j]; j++, i--)
@@ -31,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 			}
 		}
 	}
-	if (b == NULL)
+	else
 		return (0);
 
 return (sum);
