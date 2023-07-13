@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 			{
 				if (b[j] == 1)
 				{
-					sum += pow(2,i);
+					sum += _pow(2, i);
 				}
 				else if (b[j] == 0)
 				{
@@ -38,12 +38,12 @@ return (sum);
 }
 
 /**
- * _pow_recursion - gives us solution of x^y
+ * _pow - gives us solution of x^y
  * @x : our first int
  * @y : our second int
  * Return: -1 if y le 0, 1 if y is 0, result if y ge 0
  */
-int pow(int x, int y)
+int _pow(int x, int y)
 {
 	if (y < 0)
 		return (-1);
@@ -51,7 +51,7 @@ int pow(int x, int y)
 		return (1);
 	if (y > 0)
 	{
-	return (x * _pow_recursion(x, y - 1));
+	return (x * _pow(x, y - 1));
 	}
 	return (0);
 }
