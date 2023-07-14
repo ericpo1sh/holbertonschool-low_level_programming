@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_binary prints dec numbers in binary
+ * print_binary - prints dec numbers in binary
  * @n : number in decimal
  */
 void print_binary(unsigned long int n)
