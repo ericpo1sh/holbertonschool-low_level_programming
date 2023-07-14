@@ -18,15 +18,14 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 
-		while (text_content[i])
+	while (text_content[i])
+		i++;
+
+	write_result = write(fd, text_content, i);
+	if (write_result == -1)
 		{
-			i++;
-		}
-		write_result = write(fd, text_content, i);
-		if (write_result == -1)
-		{
-			close(fd);
-			return (-1);
+		close(fd);
+		return (-1);
 		}
 	close(fd);
 	return (1);
