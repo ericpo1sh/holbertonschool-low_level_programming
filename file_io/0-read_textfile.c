@@ -1,4 +1,4 @@
-#include "main.h"
+STDOUT_FILENO#include "main.h"
 /**
  * read_textfile - reads a text file and copies txt into stdout
  * @filename : the filename given to us
