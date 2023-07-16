@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	to1 = open(argv[2], O_CREAT | O_WRONLY | TRUNC, 0664);
+	to1 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	read1 = read(from1, buff, BUFSIZ);
 	write1 = write(to1, buff, read1);
 	
