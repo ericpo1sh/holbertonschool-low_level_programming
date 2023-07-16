@@ -3,8 +3,8 @@
 /**
  * main - copies the content of a file to another file.
  * @argc : arguement count
- * @argv : arguement vector 
- * Return 0 if all is passed!
+ * @argv : arguement vector
+ * Return: 0 if all is passed!
  */
 int main(int argc, char *argv[])
 {
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Usage: cp from_file file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	from1 = open(argv[1], O_RDONLY);
