@@ -22,15 +22,15 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 
-	frum = open(argv[1], O_RDONLY);
-	if (frum == -1)
+	from1 = open(argv[1], O_RDONLY);
+	if (from1 == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 
 	to1 = open(argv[2], O_CREAT | O_WRONLY | TRUNC, 0664);
-	read1 = read(frum, buff, BUFSIZ);
+	read1 = read(from1, buff, BUFSIZ);
 	write1 = write(to1, buff, read1);
 	
 	if (to1 == -1 || write1 != read1)
