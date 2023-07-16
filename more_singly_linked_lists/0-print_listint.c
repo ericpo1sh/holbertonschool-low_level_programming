@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_list - prints all the content in the list
+ * print_listint - prints all the content in the list
  * @h : our head node
  * Return: 0 if head is NULL, i if passed
  *
