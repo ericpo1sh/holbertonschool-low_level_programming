@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 	int read1 = 0;
 	int write1 = 0;
 	int close1, close2 = 0;
+	int close1, close2 = 0;
 	char buff[BUFSIZ];
 
 	if (argc != 3)
@@ -43,3 +44,19 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
+
+	close1 = close(from1);
+	close2 = close(to1);
+
+	if (close1 == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from1);
+		exit(100);
+	}
+	if (close2 == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to1);
+		exit(100);
+	}
+	return (0);
+}
