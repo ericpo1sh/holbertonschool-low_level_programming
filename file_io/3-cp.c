@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *
  *
@@ -12,7 +13,6 @@ int main(int argc, char *argv[])
 	int to1 = 0;
 	int read1 = 0;
 	int write1 = 0;
-	int close1, close2 = 0;
 	int close1, close2 = 0;
 	char buff[BUFSIZ];
 
