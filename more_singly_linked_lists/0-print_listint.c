@@ -8,17 +8,17 @@
 size_t print_listint(const listint_t *h)
 {
 	int i = 0;
-	char *str1 = NULL;
+	const listint_t *next_node = NULL;
 
 	if (h == NULL)
 		return (0);
 
 	while (h)
 	{
-		str1 = h->next;
+		next_node = h->next;
 		if (str1)
 		{
-			printf("%s\n", str1);
+			printf("%s\n", next_node);
 		}
 		else
 		{
