@@ -3,7 +3,7 @@
  * add_nodeint_end - adds a node at the end of the list
  * @head : head node
  * @n : new node added
- * Return NULL if failed, store if passed
+ * Return: NULL if failed, store if passed
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
