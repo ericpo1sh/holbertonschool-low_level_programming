@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- *
- *
- *
- *
+ * sum_listint - sums up the nodes from my list
+ * @head : head node
+ * Return: 0 if list empty, sum if passed.
  */
 int sum_listint(listint_t *head)
 {
@@ -12,7 +11,7 @@ int sum_listint(listint_t *head)
 
 	if (head == NULL)
 		return (0);
-	
+
 	temp = head;
 
 	while (temp->next != NULL)
