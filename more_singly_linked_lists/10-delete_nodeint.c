@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
- *
- *
- *
+ * delete_nodeint_at_index - deleted the certain node at index
+ * @head : head node
+ * @index : index to chose
+ * Return: -1 if failed, 1 if passed.
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
