@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * set_bit - resets the value of bits  to 1
+ * set_bit - resets the value of bits to 1
  * @n : Bits
  * @index : index
  * Return: 1 if sucess, -1 if failed
