@@ -4,7 +4,7 @@
  * @size : size of hash table
  * Return: NULL if failed, new if passed
  */
-hash_table_t *hash_table_create(unsigned lont int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
 	if (size == 0)
 		return (NULL);
