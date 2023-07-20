@@ -11,7 +11,7 @@ hash_table_t *new = NULL;
 if (size == 0)
 	return (NULL);
 
-new = malloc(sizeof(hash_node_t));
+new = malloc(sizeof(hash_table_t));
 
 if (new == NULL)
 	return (NULL);
