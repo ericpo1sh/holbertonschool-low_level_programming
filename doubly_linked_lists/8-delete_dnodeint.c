@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * delete_dnode_at_index - deletes the specific node at index
+ * delete_dnodeint_at_index - deletes the specific node at index
  * @head : head node
  * @index : index
  * Return: -1 if failed, 1 if passed
@@ -34,10 +34,10 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			del = temp->next;
 			if (temp->next != NULL)
 				temp->next = del->next;
-			free (del);
+			free(del);
 			continue;
 		}
 		temp = temp->next;
 	}
 	return (1);
-}			
+}
