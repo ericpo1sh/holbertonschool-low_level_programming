@@ -29,7 +29,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	else
 	{
-		add = ht->array[index];
+		head = ht->array[index];
 		add->next = NULL;
 		ht->array[index] = add;
 	}
