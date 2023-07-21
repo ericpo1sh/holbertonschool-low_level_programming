@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * hash_table_get - gets the value associated with key 
+ * hash_table_get - gets the value associated with key
  * @ht : hash table
  * @key : key
  * Return: NULL if failed, value at key if success.
