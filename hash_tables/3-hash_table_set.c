@@ -26,12 +26,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht->array[index] == NULL)
 	{
 		ht->array[index] = add;
+		free(add)
 	}
 	else
 	{
 		head = ht->array[index];
 		add->next = head;
 		ht->array[index] = add;
+		free(add);
 	}
 	return (1);
 }
