@@ -14,14 +14,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	add = malloc(sizeof(hash_node_t));
 
-	if (add == NULL || key == NULL)
+	if (add == NULL || key == NULL || ht == NULL)
 		return (0);
 
 	add->key = strdup(key);
 	add->value = strdup(value);
 	add->next = NULL;
 
-	index = (hash_djb2(key)) % (ht->size);
+	index = (hash_djb2((const unsigned char *)key)) % (ht->size);
 
 	if (ht->array[index] == NULL)
 	{
