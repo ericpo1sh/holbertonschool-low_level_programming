@@ -34,7 +34,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		ht->array[index] = add;
 		free(head);
 	}
-	else
+	if (ht->array[index] != NULL)
 	{
 		head = ht->array[index];
 		add->next = head;
