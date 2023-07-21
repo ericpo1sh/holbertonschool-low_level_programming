@@ -33,7 +33,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		head = ht->array[index];
 		add->next = head;
 		ht->array[index] = add;
-		free(add);
 	}
 	return (1);
 }
