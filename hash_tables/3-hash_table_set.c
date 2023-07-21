@@ -27,7 +27,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		ht->array[index] = add;
 	}
-	else
+	if (add->value != value)
+		return(0);
+	if (h->array[index] != NULL)
 	{
 		head = ht->array[index];
 		add->next = head;
