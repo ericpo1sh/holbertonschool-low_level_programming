@@ -21,15 +21,16 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	add->value = strdup(value);
 	add->next = NULL;
 
+	if (add->value != value)
+		return (0);
+
 	index = (hash_djb2((const unsigned char *)key)) % (ht->size);
 
 	if (ht->array[index] == NULL)
 	{
 		ht->array[index] = add;
 	}
-	if (add->value != value)
-		return(0);
-	if (ht->array[index] != NULL)
+	else
 	{
 		head = ht->array[index];
 		add->next = head;
