@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 /**
- *
- *
- *
- *
- *
+ * hash_table_set - adds a element to table
+ * @ht : hash table
+ * @key : key
+ * @value: value of node
+ * Return: 1 if passed, 0 if it didnt pass
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
