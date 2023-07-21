@@ -4,7 +4,7 @@
  * @ht: hash table struct
  * @key: key
  * @value: value of key
- * Return: 
+ * Return: 0 if failed, 1 if passed 
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
