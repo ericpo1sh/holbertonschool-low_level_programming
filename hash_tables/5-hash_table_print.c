@@ -13,7 +13,7 @@ void hash_table_print(const hash_table_t *ht)
 		return;
 	
 	temp = malloc(sizeof(hash_node_t));
-	if (node == NULL)
+	if (temp == NULL)
 		return;
 
 	if (ht != NULL && (ht->size > 0))
