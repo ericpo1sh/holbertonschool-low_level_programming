@@ -24,7 +24,7 @@ void hash_table_print(const hash_table_t *ht)
 			if (ht->array[i] != NULL)
 			{
 				if (div != 0)
-					printf(",");
+					printf(", ");
 				temp = ht->array[i];
 				while (temp != NULL)
 				{
