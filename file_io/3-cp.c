@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/**
+/*
  * main - copies the content of a file to another file.
  * @argc : arguement count
  * @argv : arguement vector
