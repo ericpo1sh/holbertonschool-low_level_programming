@@ -21,14 +21,19 @@ int binary_search(int *array, size_t size, int value)
 		{
 			if (value == array[mid])
 				return (mid);
-			
+
 			else if (value < array[mid])
+			{
 				R = mid - 1;
+				printf("Searching in array: ");
+				print_array(&array[L], (R - L + 1));
+			}
 			else
+			{
 				L = mid + 1;
-			
-			printf("Searching in array: ");
-			print_array(&array[L], (R - L + 1));
+				printf("Searching in array: ");
+				print_array(&array[L], (R - L + 1));
+			}
 		}
 	}
 	return (-1);
