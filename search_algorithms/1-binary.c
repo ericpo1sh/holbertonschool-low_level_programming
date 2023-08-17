@@ -20,8 +20,10 @@ int binary_search(int *array, size_t size, int value)
 		while (L <= R)
 		{
 			if (value == array[mid])
+			{
+				printf("Found %i at index: %d\n", value, mid);
 				return (mid);
-
+			}
 			else if (value < array[mid])
 				R = mid - 1;
 			else
